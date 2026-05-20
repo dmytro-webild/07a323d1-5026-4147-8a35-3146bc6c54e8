@@ -49,7 +49,7 @@ export default function LandingPage() {
         variant: "plain"}}
       title="Afet Bölgelerinde Hayat Kurtaran Otonom Teknoloji"
       description="Enkaz altında kalanları daha hızlı tespit eden, ileri nesil termal ve ses algılama özellikli arama-kurtarma robotumuzla tanışın."
-      tag="Teknofest Arama-Kurtarma"
+      tag="Arama-Kurtarma Projesi"
       mediaItems={[
         {
           imageSrc: "http://img.b2bpic.net/free-photo/smart-robotic-farmers-concept-robot-farmers-agriculture-technology-farm-automation_35913-2316.jpg",          imageAlt: "futuristic search and rescue robot"},
@@ -58,7 +58,7 @@ export default function LandingPage() {
       ]}
       mediaAnimation="slide-up"
       rating={5}
-      ratingText="Teknofest Prototip Onaylı"
+      ratingText="Prototip Onaylı"
     />
   </div>
 
@@ -137,7 +137,7 @@ export default function LandingPage() {
         {
           id: "q2",          title: "Pil ömrü ne kadar?",          content: "Kesintisiz 8 saatlik aktif kurtarma operasyon süresine sahiptir."},
         {
-          id: "q3",          title: "Teknofest hedefleri neler?",          content: "Afet teknolojileri kategorisinde en yenilikçi robot olarak ödül hedeflemekteyiz."},
+          id: "q3",          title: "Proje hedefleri neler?",          content: "Afet teknolojileri kategorisinde en yenilikçi robot olarak ödül hedeflemekteyiz."},
       ]}
       title="Sıkça Sorulan Sorular"
       description="Projemiz hakkında teknik detaylar."
@@ -153,7 +153,7 @@ export default function LandingPage() {
       text="Proje geliştirme sürecimize destek vermek veya daha fazla bilgi almak için bize ulaşın."
       buttons={[
         {
-          text: "İletişime Geç",          href: "mailto:info@teknofestbot.tr"},
+          text: "İletişime Geç",          href: "mailto:info@kurtarmabotu.tr"},
       ]}
     />
   </div>
@@ -161,7 +161,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterCard
       logoText="KurtarmaBotu"
-      copyrightText="© 2024 Teknofest Arama-Kurtarma Takımı"
+      copyrightText="© 2024 Arama-Kurtarma Takımı"
     />
   </div>
       </ReactLenis>
