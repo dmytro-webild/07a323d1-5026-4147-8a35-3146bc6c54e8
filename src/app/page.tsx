@@ -31,21 +31,13 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Anasayfa",
-          id: "hero",
-        },
+          name: "Anasayfa",          id: "hero"},
         {
-          name: "Proje",
-          id: "about",
-        },
+          name: "Proje",          id: "about"},
         {
-          name: "Teknoloji",
-          id: "features",
-        },
+          name: "Teknoloji",          id: "features"},
         {
-          name: "İletişim",
-          id: "contact",
-        },
+          name: "İletişim",          id: "contact"},
       ]}
       brandName="KurtarmaBotu"
     />
@@ -54,32 +46,15 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="Afet Bölgelerinde Hayat Kurtaran Otonom Teknoloji"
       description="Enkaz altında kalanları daha hızlı tespit eden, ileri nesil termal ve ses algılama özellikli arama-kurtarma robotumuzla tanışın."
       tag="Teknofest Arama-Kurtarma"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/smart-robotic-farmers-concept-robot-farmers-agriculture-technology-farm-automation_35913-2316.jpg",
-          imageAlt: "futuristic search and rescue robot",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/smart-robotic-farmers-concept-robot-farmers-agriculture-technology-farm-automation_35913-2316.jpg",          imageAlt: "futuristic search and rescue robot"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/natural-background-water-pool-texture-close-up_169016-22523.jpg",
-          imageAlt: "robot sensor detail",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-hydraulic-elements_23-2149333330.jpg",
-          imageAlt: "3d rendering of hydraulic elements",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-biorobots-concept_23-2149524403.jpg",
-          imageAlt: "3d rendering of biorobots concept",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-hydraulic-elements_23-2149333333.jpg",
-          imageAlt: "3d rendering of hydraulic elements",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/natural-background-water-pool-texture-close-up_169016-22523.jpg",          imageAlt: "robot sensor detail"}
       ]}
       mediaAnimation="slide-up"
       rating={5}
@@ -109,29 +84,19 @@ export default function LandingPage() {
       features={[
         {
           icon: Activity,
-          title: "Termal Algılama",
-          description: "Canlıların ısı izlerini en zor koşullarda dahi tespit eder.",
-        },
+          title: "Termal Algılama",          description: "Canlıların ısı izlerini en zor koşullarda dahi tespit eder."},
         {
           icon: Mic,
-          title: "Ses Algılama",
-          description: "Enkaz altındaki yardım çağrılarını dijital filtrelerle ayrıştırır.",
-        },
+          title: "Ses Algılama",          description: "Enkaz altındaki yardım çağrılarını dijital filtrelerle ayrıştırır."},
         {
           icon: ShieldCheck,
-          title: "İnsan Güvenliği",
-          description: "Ekip üyelerini riskli alanlardan uzak tutarak güvenliği sağlar.",
-        },
+          title: "İnsan Güvenliği",          description: "Ekip üyelerini riskli alanlardan uzak tutarak güvenliği sağlar."},
         {
           icon: Wifi,
-          title: "Gelişmiş İletişim",
-          description: "Enkazın derinliklerinden kesintisiz veri aktarımı.",
-        },
+          title: "Gelişmiş İletişim",          description: "Enkazın derinliklerinden kesintisiz veri aktarımı."},
         {
           icon: Zap,
-          title: "Yüksek Enerji Verimliliği",
-          description: "Uzun süreli operasyonlar için optimize edilmiş pil yönetimi.",
-        },
+          title: "Yüksek Enerji Verimliliği",          description: "Uzun süreli operasyonlar için optimize edilmiş pil yönetimi."},
       ]}
       title="Neden Arama-Kurtarma Robotu?"
       description="Modern afet yönetimi için geliştirdiğimiz teknolojiler."
@@ -145,31 +110,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "1",
-          value: "%60",
-          title: "Daha Hızlı Keşif",
-          items: [
-            "Manuel sürece göre",
-            "Enkaz arama hızı",
-          ],
+          id: "1",          value: "%60",          title: "Daha Hızlı Keşif",          items: [
+            "Manuel sürece göre",            "Enkaz arama hızı"],
         },
         {
-          id: "2",
-          value: "%100",
-          title: "Personel Güvenliği",
-          items: [
-            "Risk azaltımı",
-            "Saha güvenliği",
-          ],
+          id: "2",          value: "%100",          title: "Personel Güvenliği",          items: [
+            "Risk azaltımı",            "Saha güvenliği"],
         },
         {
-          id: "3",
-          value: "24/7",
-          title: "Operasyon Kapasitesi",
-          items: [
-            "Kesintisiz görev süresi",
-            "Aktif çalışma",
-          ],
+          id: "3",          value: "24/7",          title: "Operasyon Kapasitesi",          items: [
+            "Kesintisiz görev süresi",            "Aktif çalışma"],
         },
       ]}
       title="Proje Verimliliği"
@@ -183,20 +133,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "Robot nasıl çalışıyor?",
-          content: "Enkaz yüzeyine bırakılan robot, kablosuz bağlantı ile termal verileri merkeze iletir.",
-        },
+          id: "q1",          title: "Robot nasıl çalışıyor?",          content: "Enkaz yüzeyine bırakılan robot, kablosuz bağlantı ile termal verileri merkeze iletir."},
         {
-          id: "q2",
-          title: "Pil ömrü ne kadar?",
-          content: "Kesintisiz 8 saatlik aktif kurtarma operasyon süresine sahiptir.",
-        },
+          id: "q2",          title: "Pil ömrü ne kadar?",          content: "Kesintisiz 8 saatlik aktif kurtarma operasyon süresine sahiptir."},
         {
-          id: "q3",
-          title: "Teknofest hedefleri neler?",
-          content: "Afet teknolojileri kategorisinde en yenilikçi robot olarak ödül hedeflemekteyiz.",
-        },
+          id: "q3",          title: "Teknofest hedefleri neler?",          content: "Afet teknolojileri kategorisinde en yenilikçi robot olarak ödül hedeflemekteyiz."},
       ]}
       title="Sıkça Sorulan Sorular"
       description="Projemiz hakkında teknik detaylar."
@@ -208,14 +149,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "rotated-rays-animated-grid",
-      }}
+        variant: "rotated-rays-animated-grid"}}
       text="Proje geliştirme sürecimize destek vermek veya daha fazla bilgi almak için bize ulaşın."
       buttons={[
         {
-          text: "İletişime Geç",
-          href: "mailto:info@teknofestbot.tr",
-        },
+          text: "İletişime Geç",          href: "mailto:info@teknofestbot.tr"},
       ]}
     />
   </div>
