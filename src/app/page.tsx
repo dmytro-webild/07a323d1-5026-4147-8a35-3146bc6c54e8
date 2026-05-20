@@ -51,10 +51,12 @@ export default function LandingPage() {
       description="Enkaz altında kalanları daha hızlı tespit eden, ileri nesil termal ve ses algılama özellikli arama-kurtarma robotumuzla tanışın."
       tag="Arama-Kurtarma Projesi"
       mediaItems={[
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/smart-robotic-farmers-concept-robot-farmers-agriculture-technology-farm-automation_35913-2316.jpg",          imageAlt: "futuristic search and rescue robot"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/natural-background-water-pool-texture-close-up_169016-22523.jpg",          imageAlt: "robot sensor detail"}
+        { 
+          imageSrc: "",          imageAlt: "" 
+        },
+        { 
+          imageSrc: "",          imageAlt: "" 
+        }
       ]}
       mediaAnimation="slide-up"
       rating={5}
@@ -69,8 +71,8 @@ export default function LandingPage() {
       title="Hızlı Tespit ve Güvenli Müdahale"
       description="Amacımız, enkaz altındaki kişilerin yerini dar alanlara girmeden, yüksek hassasiyetli sensörlerle hızlı ve güvenli bir şekilde tespit etmektir."
       subdescription="Zamanın kritik olduğu afet anlarında, insan hatasını minimize eden ve kurtarma ekiplerinin riskini azaltan akıllı bir çözüm."
-      imageSrc="http://img.b2bpic.net/free-photo/scene-with-futuristic-robot-used-construction-industry_23-2151329470.jpg"
-      imageAlt="search and rescue robot operation"
+      imageSrc=""
+      imageAlt=""
       mediaAnimation="slide-up"
       icon={Target}
     />
